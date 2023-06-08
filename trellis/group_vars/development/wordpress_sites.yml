@@ -1,0 +1,22 @@
+# Created by trellis-cli v1.11.0
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  starmedics.com:
+    site_hosts:
+    - canonical: starmedics.test
+      redirects:
+      - www.starmedics.test
+    local_path: ../site
+    admin_email: nhogan411+starmedics@gmail.com
+    admin_user: starmedicsdevadmin
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+    env:
+      db_name: starmedics_dev
+      db_user: wp_db_u

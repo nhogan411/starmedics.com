@@ -1,0 +1,21 @@
+# Created by trellis-cli v1.11.0
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: cjL1nefFyMJYeHTuukqA9NzeJfslbjwzUoSaNnrheC3jR0ToxjiFMKHLWvMB52Fb
+vault_users:
+- name: '{{ admin_user }}'
+  password: SuQIzkr1gSNYSIXREpPV1aHgIhVm27X9t36PBw3aJHfJueJ7uFyTdPMkI8FWoYvg
+  salt: 8y70mQDIjggdZ946mCy9h6kWaYMacOscvc0YnW8aWs1VhAp7sQgzei1LVUzlmkV3
+vault_wordpress_sites:
+  starmedics.com:
+    admin_password: o0c6XUQkthxl8FWl8a2EIvFHd5hWKZce2xJvWcY4FMVoR5hAboWY00cXzuhD8l1a
+    env:
+      db_password: U42NV27cvD1E7PhHpQC8IrsqqFb9QJnGGTJwygDBeiZ9glyp0ZdgPkBgC7Tfsass
+      auth_key: ADtmgsinsiYC6XhsGM9PhI2dQww24wBQa1U1pqhgwtEN9FbCI5DI580PP0d8BXUZ
+      secure_auth_key: Wxo8KdyXKDfPKAj5GPjtb8sFfnL7M6B8hWkvvj19WfFfWl3dI0PfhnSsWNTMzzHC
+      logged_in_key: s5DSILbxSSbeVDfA1FoPwV3RGMHMi5cvoBTvhBucwkEpNTkSkCTFXVP3mqPINsis
+      nonce_key: jah7vUeaPYVyAWBzKujGZp4GzssAmrX6XQUjqFQHP52sd6lyeypd7hcVIQLg7LAj
+      auth_salt: 6VlLtW7UP5C9WB3cdDbeU59ivhOGvcLBVfWqZn8FhEW6lCh6LfjASSdPhhzueKvu
+      secure_auth_salt: BE19dJC7mYGEO2kFt2s4J5FuiQl98hwKBchN4GXXdcGSPu4tdtOesBLXxuMezjXT
+      logged_in_salt: MmrvoNawdQOEtagDUdVCrx3SmxJ0wQ0CK2aMJe9ZjpEHuOt7vZo794TZG5Tfdb8y
+      nonce_salt: FE1y2OBwrUvkUtGJAcV1hxCNW7cakWOLA1rscrNbBWRfEY1uJZTVU3pY248OqdJ4

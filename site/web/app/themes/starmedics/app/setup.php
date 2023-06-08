@@ -109,6 +109,12 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/add_theme_support/#customize-selective-refresh-widgets
      */
     add_theme_support('customize-selective-refresh-widgets');
+
+    /**
+     * Enable Woocommerce.
+     *
+     */
+    add_theme_support('woocommerce');
 }, 20);
 
 /**
@@ -134,3 +140,14 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+/**
+ * New Image Sizes
+ * Uncomment any images size that would be useful to your theme
+ */
+// add_image_size( 'square-1000', 1000, 1000, true ); // (cropped)
+// add_image_size( 'square-800', 800, 800, true ); // (cropped)
+// add_image_size( 'square-600', 600, 600, true ); // (cropped)
+// add_image_size( 'square-400', 400, 400, true ); // (cropped)
+// add_image_size( 'img-4-3', 800, 600, true ); // (cropped)
+// add_image_size( 'banner-16-9', 1280, 720, false ); // (scaled)
